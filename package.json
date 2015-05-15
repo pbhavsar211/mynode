@@ -1,0 +1,28 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "have fun with node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbhavsar211/mynode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbhavsar211/mynode/issues"
+  },
+  "homepage": "https://github.com/pbhavsar211/mynode",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
