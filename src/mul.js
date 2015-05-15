@@ -1,4 +1,5 @@
 mul = function mul(x,y){
+	console.log("multiplication called ...");
 	return x*y;
 }
 
