@@ -1,7 +1,8 @@
-file = require("./file")
+// mongotest
 
-// reading file
-file.readf('server.js')
+var people = {name:'chirag'}
 
-// writing contents to file
-file.writef('test.txt','data we are writing to file ....')
+mongo = require('./mongo');
+mongo.insert('user',people);
+// mongo.findByUserName('user','chirag');
+mongo.findByUserNameToArray('user','chirag');
