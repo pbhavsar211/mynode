@@ -17,3 +17,11 @@ sending data using curl : http get / POST request
 curl -v http://localhost:1212/users/paresh
 curl -H "Content-Type: application/json" -X POST --data '{"name":"paresh"}' http://localhost:1212/create
 
+Unit Testing...
+
+We are using mocha framework and task grunt-mocha-test
+check out file Gruntfile.js having mochaTest task...
+
+npm install -g mocha
+npm install grunt-mocha-test --save-dev
+grunt -> will fire the test files first and if successful it will execute copy task.
